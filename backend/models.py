@@ -6,7 +6,7 @@ from modules.fleet.models import (
     DroneEmergencyMedical,
 )
 from modules.reservations.models import AirspaceSector, TimeSlot, Reservation
-
+from modules.telemetry.models import WaypointTelemetry
 __all__ = [
     "Operator",
     "AuditLog",
@@ -17,5 +17,6 @@ __all__ = [
     "AirspaceSector",
     "TimeSlot",
     "Reservation",
+    "WaypointTelemetry",
 ]
 
